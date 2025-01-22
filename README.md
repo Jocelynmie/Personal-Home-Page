@@ -54,10 +54,12 @@ A responsive personal portfolio website showcasing my professional experience, p
 3. Project Structure:
 
    root/
+   │
    ├── index.html # Home page
    ├── projects.html # Projects page
    ├── experience.html # Experience page
    ├── contact.html # Contact page
+   │
    ├── css/ # CSS files
    ├── js/ # JavaScript files
    ├── images/ # Image assets
