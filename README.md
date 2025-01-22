@@ -62,7 +62,21 @@ A responsive personal portfolio website showcasing my professional experience, p
      ```
 
 5. Access the website at `http://localhost:8000` or the port provided by your server
-   ![Home Page](./project1/screenshots/Homepage.png)
-   ![Projects Page](./project1/screenshots/projects.png)
-   ![Experience Page](./project1/screenshots/experience.png)
-   ![Contact Page](./project1/screenshots/contact.png)
+
+# Screenshots
+
+## Home Page
+
+![Home page featuring skills and introduction](./project1/screenshots/Homepage.png)
+
+## Projects Page
+
+![Portfolio of development projects](./project1/screenshots/projects.png)
+
+## Experience Page
+
+![Professional experience timeline](./project1/screenshots/experience.png)
+
+## Contact Page
+
+![Contact form and information](./project1/screenshots/contact.png)
