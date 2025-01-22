@@ -83,13 +83,13 @@ A responsive personal portfolio website showcasing my professional experience, p
 
 # What I'm Most Proud Of
 
-Learned how to use HTML and CSS to build my first websiteuccessfully made my website work with Bootstrap
-Added JavaScript to make the contact form work
-Made links to my GitHub projects that show my coding skills
+- Learned how to use HTML and CSS to build my first websiteuccessfully made my website work with Bootstrap
+- Added JavaScript to make the contact form work
+- Made links to my GitHub projects that show my coding skills
 
 # Most Challenging Parts
 
-Understanding how to use Bootstrap for the first time
-Making the navigation menu work on mobile phones
-Getting the contact form to send emails correctly
-Learning how to connect all my social media links
+- Understanding how to use Bootstrap for the first time
+- Making the navigation menu work on mobile phones
+- Getting the contact form to send emails correctly
+- Learning how to connect all my social media links
