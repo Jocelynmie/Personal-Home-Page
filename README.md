@@ -1,6 +1,6 @@
-# Personal Home Page
+# Personal Portfolio Website
 
-# Author
+## Author
 
 Wenyu Yang
 
@@ -8,15 +8,15 @@ Wenyu Yang
 - LinkedIn: [Wenyu "Jocelyn" Y.](https://www.linkedin.com/in/wenyu-jocelyn-y-62833a219/)
 - Email: jocelynmiemie@gmail.com
 
-# Class Link
+## Class Link
 
-https://johnguerra.co/classes/webDevelopment_spring_2025/
+[Your class link here]
 
-# Project Objective
+## Project Objective
 
 A responsive personal portfolio website showcasing my professional experience, projects, and technical skills as a Full Stack Developer. The website features a clean, modern design with sections for projects, work experience, and contact information.
 
-# Key Features
+## Key Features
 
 - Responsive navigation with Bootstrap
 - Interactive contact form
@@ -26,7 +26,7 @@ A responsive personal portfolio website showcasing my professional experience, p
 - Personal interests/hobbies section
 - Social media integration
 
-# Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -38,30 +38,32 @@ A responsive personal portfolio website showcasing my professional experience, p
 
 1. Clone the repository:
 
-   ```bash
-   git clone [your-repository-url]
-   ```
+   git clone https://github.com/Jocelynmie/Personal-Home-Page
 
 2. Navigate to the project directory:
 
-   ```bash
-   cd [project-directory]
-   ```
+   cd Personal-Home-Page
 
-3. Open project in your preferred code editor
+3. Project Structure:
 
-4. Launch with a local server:
+   root/
+   ├── index.html # Home page
+   ├── projects.html # Projects page
+   ├── experience.html # Experience page
+   ├── contact.html # Contact page
+   ├── css/ # CSS files
+   ├── js/ # JavaScript files
+   ├── images/ # Image assets
+   └── screenshots/ # Project screenshots
 
-   - Using Python:
-     ```bash
-     python -m http.server
-     ```
-   - Using Node.js:
-     ```bash
-     npx serve
-     ```
+4. Dependencies:
 
-5. Access the website at `http://localhost:8000` or the port provided by your server
+   - Bootstrap 5.3.2
+   - Bootstrap Icons 1.11.1
+
+5. Access the website:
+   - Local development: `http://localhost:8000`
+   - Live site: https://jocelynmie.github.io/Personal-Home-Page/
 
 # Screenshots
 
