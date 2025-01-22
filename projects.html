@@ -7,10 +7,10 @@
     <meta name="description" content="Wenyu Yang - Full Stack Developer Portfolio">
     <meta name="author" content="Wenyu Yang">
     <title>Wenyu Yang - Portfolio</title>
-    <link rel="icon" href="../images/icon.png">
+    <link rel="icon" href="./images/icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../public.css">
+    <link rel="stylesheet" href="./css/public.css">
   </head>
 
   <body>
@@ -52,50 +52,65 @@
           </div>
           <div class="col-lg-6">
             <div class="text-center">
-              <img src="../images/WechatIMG420.jpeg" alt="Profile Image" class="img-fluid rounded-3 shadow" style="max-width: 200px">
+              <img src="./images/WechatIMG420.jpeg" alt="Profile Image" class="img-fluid rounded-3 shadow" style="max-width: 200px">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="py-5 bg-light">
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
       <div class="container px-5">
-        <h2 class="text-center fw-bold mb-5">Experience</h2>
-        <div class="timeline">
-          <div class="row g-4">
-            <!-- Experience 1 -->
-            <div class="col-md-6 offset-md-0 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title fw-bold">Mobile App Development Intern</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Xinjiang Bank</h6>
-                  <p class="small text-muted">Sep. 2024 - Dec. 2024</p>
-                  <p class="card-text">Developed and enhanced an iOS banking application using Swift 5 and SwiftUI, implementing secure transaction interfaces
-                    and optimizing performance by 15% while ensuring PCI DSS compliance.</p>
-                  <p class="card-text">Built internal administrative dashboard using React 18 and TypeScript, featuring role-based access control and audit logging
-                    that improved transaction monitoring efficiency by 20%.</p>
-                  <p class="card-text">Integrated core banking APIs and security features including OAuth 2.0, SSL certificate pinning, and biometric authenti-
-                    cation, maintaining 75% test coverage.</p>
+        <h2 class="text-center fw-bold mb-5">Projects</h2>
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-lg-6">
+            <div class="card h-100 project-card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">E-Commerce Microservice Application</h5>
+                <div class="card-text">
+                  <ul>Independently designed and developed an e-commerce application using the MERN stack and microservices architecture,
+                    integrating Stripe.js for secure payments.</ul>
+                  <ul>Implemented CRUD operations using Node.js and MongoDB, and incorporated JWT authentication for enhanced security.</ul>
+                  <ul>Created an intuitive, responsive UI using React and ensured cross-platform compatibility with Flutter.</ul>
                 </div>
+
+                <div class="mb-3">
+                  <span class="skill-badge">React</span>
+                  <span class="skill-badge">Node.js</span>
+                  <span class="skill-badge">MongoDB</span>
+                  <span class="skill-badge">Express</span>
+                  <span class="skill-badge">Stripe.js</span>
+                </div>
+                <a href="https://github.com/Jocelynmie/MERN_workout" class="btn btn-outline-primary">
+                  <i class="bi bi-github me-2"></i>View Project
+                </a>
               </div>
             </div>
-            <!-- Experience 2 -->
-            <div class="col-md-6 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title fw-bold">Full Stack Software Engineer Intern</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Bank of Huihe</h6>
-                  <p class="small text-muted">Dec. 2023 - Mar. 2024</p>
-                  <p class="card-text">Assisted in the development of a track spending feature using Spring Boot backend and HTML/CSS with React frontend,
-                    providing 100K+ users a dynamic platform to plan schedules and monitor expenses, increasing user daily activity by 28%</p>
-                  <p class="card-text">Contributed to the development of the official website using Java and Spring Cloud, focusing on service discovery and
-                    configuration management, which resulted in delivering up-to-date information and increasing customer satisfaction by
-                    31% in February 2024.</p>
-                  <p class="card-text">Developed and implemented scalable software solutions using Java, Spring Boot, and React, following agile methodologies
-                    and CI/CD practices.</p>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-lg-6">
+            <div class="card h-100 project-card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Currency Converter iOS App</h5>
+                <div class="card-text">
+                  <ul>Engineered a themed currency converter using SwiftUI framework with MVVM architecture, implementing real-time bidi-
+                    rectional conversion.</ul>
+                  <ul>Developed modular UI components with custom animations and gesture recognizers, utilizing SwiftUI’s built-in primitives.</ul>
+                  <ul>Designed type-safe currency system using Swift enums with computed properties for robust data handling.</ul>
                 </div>
+
+                <div class="mb-3">
+                  <span class="skill-badge">Next.js</span>
+                  <span class="skill-badge">TypeScript</span>
+                  <span class="skill-badge">Django</span>
+                  <span class="skill-badge">PostgreSQL</span>
+                  <span class="skill-badge">AWS</span>
+                </div>
+                <a href="https://github.com/Jocelynmie/LOTRConverter17" class="btn btn-outline-primary">
+                  <i class="bi bi-github me-2"></i>View Project
+                </a>
               </div>
             </div>
           </div>
