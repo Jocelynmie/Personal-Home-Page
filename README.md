@@ -5,7 +5,7 @@
 - Website Link: https://jocelynmie.github.io/Personal-Home-Page/
 - Design Document: https://github.com/Jocelynmie/Personal-Home-Page/blob/main/Design%20Document.pdf
 - Slides: https://docs.google.com/presentation/d/1UQQJ6df8m87xbNU-_o3mVFuwbP7Itq9NkcSIETTNBVU/edit#slide=id.g106ca8f30d1_0_0
-- Video:
+- Video: https://youtu.be/iQILQlY6Ry0
 
 ## Author
 
