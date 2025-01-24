@@ -1,4 +1,4 @@
-# Wenyu Yang (Jocelyn)'s Home Webpage
+# Personal Portfolio Website
 
 ## Overview
 
@@ -23,6 +23,14 @@ https://johnguerra.co/classes/webDevelopment_spring_2025/
 
 A responsive personal portfolio website showcasing my professional experience, projects, and technical skills as a Full Stack Developer. The website features a clean, modern design with sections for projects, work experience, and contact information.
 
+## Creative Features
+
+### Interactive Contact Form
+Enhanced the user experience with a dynamic "Send Message" button that:
+- Changes color and scales up slightly on hover
+- Shows a brief loading animation during form submission
+- Provides visual feedback with a success/error state after submission
+
 ## Key Features
 
 - Responsive navigation with Bootstrap
@@ -33,14 +41,6 @@ A responsive personal portfolio website showcasing my professional experience, p
 - Personal interests/hobbies section
 - Social media integration
 
-## Creative Features
-
-### Interactive Contact Form
-Enhanced the user experience with a dynamic "Send Message" button that:
-- Changes color and scales up slightly on hover
-- Shows a brief loading animation during form submission
-- Provides visual feedback with a success/error state after submission
-
 ## Technologies Used
 
 - HTML5
@@ -48,6 +48,13 @@ Enhanced the user experience with a dynamic "Send Message" button that:
 - JavaScript
 - Bootstrap 5.3.2
 - Bootstrap Icons
+
+## Describe any use of GenAI
+
+### Models & Technologies
+- GPT-3.5 was used for initial content generation and text suggestions
+- DALL-E 2 was used for generating placeholder images during development before replacing with actual portfolio photos
+
 
 # Build Instructions
 
@@ -97,13 +104,6 @@ Enhanced the user experience with a dynamic "Send Message" button that:
 ## Contact Page
 
 ![Contact form and information](./screenshots/contact.png)
-
-## Describe any use of GenAI
-
-### Models & Technologies
-
-- GPT-3.5 was used for initial content generation and text suggestions
-- DALL-E 2 was used for generating placeholder images during development before replacing with actual portfolio photos
 
 # What I'm Most Proud Of
 
