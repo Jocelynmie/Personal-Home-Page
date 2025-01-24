@@ -1,16 +1,18 @@
+import prettier from "eslint-config-prettier";
+import js from "@eslint/js";
+import { includeIgnoreFile } from "@eslint/compat";
+// import svelte from "eslint-plugin-svelte";
 import globals from "globals";
-import pluginJs from "@eslint/js";
-import htmlPlugin from "eslint-plugin-html";
-import eslintConfigPrettier from "eslint-config-prettier";
+import { fileURLToPath } from "node:url";
+const gitignorePath = fileURLToPath(new URL("./.gitignore", import.meta.url));
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  pluginJs.configs.recommended,
-  eslintConfigPrettier,
-  {
-    files: ["**/*.html"],
-    plugins: { htmlPlugin },
-  },
+  includeIgnoreFile(gitignorePath),
+  js.configs.recommended,
+  // ...svelte.configs["flat/recommended"],
+  prettier,
+  // ...svelte.configs["flat/prettier"],
   {
     languageOptions: {
       globals: {
@@ -27,6 +29,7 @@ export default [
         },
       },
     },
+
     rules: {
       indent: [
         "error",
@@ -35,6 +38,7 @@ export default [
           SwitchCase: 1,
         },
       ],
+
       "linebreak-style": ["error", "unix"],
       quotes: ["error", "double"],
       semi: ["error", "always"],
