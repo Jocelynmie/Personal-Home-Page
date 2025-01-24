@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Wenyu Yang (Jocelyn)'s Home Webpage
 
 ## Overview
 
@@ -32,6 +32,14 @@ A responsive personal portfolio website showcasing my professional experience, p
 - Professional experience timeline
 - Personal interests/hobbies section
 - Social media integration
+
+## Creative Features
+
+### Interactive Contact Form
+Enhanced the user experience with a dynamic "Send Message" button that:
+- Changes color and scales up slightly on hover
+- Shows a brief loading animation during form submission
+- Provides visual feedback with a success/error state after submission
 
 ## Technologies Used
 
@@ -89,6 +97,13 @@ A responsive personal portfolio website showcasing my professional experience, p
 ## Contact Page
 
 ![Contact form and information](./screenshots/contact.png)
+
+## Describe any use of GenAI
+
+### Models & Technologies
+
+- GPT-3.5 was used for initial content generation and text suggestions
+- DALL-E 2 was used for generating placeholder images during development before replacing with actual portfolio photos
 
 # What I'm Most Proud Of
 
