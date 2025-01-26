@@ -1,4 +1,4 @@
-# Wenyu Yang(Jocelyn)'s Personal Portfolio Website
+# Personal Portfolio Website
 
 ## Overview
 
@@ -52,8 +52,14 @@ Enhanced the user experience with a dynamic "Send Message" button that:
 ## Describe any use of GenAI
 
 ### Models & Technologies
-- GPT-3.5 was used for initial content generation and text suggestions
-- DALL-E 2 was used for generating placeholder images during development before replacing with actual portfolio photos
+- Used Claude 3.5 Sonnet. Prompt used: "For my index.html portfolio, I want to add a fade-in animation when each hobby card appears on the page. Could you help me write the JavaScript code and explain any CSS changes needed?"
+- How it was used: I used this prompt to create a smooth fade-in animation effect for my hobby section cards because I wasn't familiar with CSS animations and JavaScript's Intersection Observer API. Claude provided a complete solution that I could directly implement by:
+
+- Adding the suggested CSS transitions to my existing public.css
+- Inserting the JavaScript code before the closing </body> tag
+- Adding the recommended class names to my hobby card elements
+
+
 
 
 # Build Instructions
